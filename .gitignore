@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.tsbuildinfo
+_local/
+shots/
+shots*/
+frames*/

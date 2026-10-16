@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Павел Юнусов — резюме</title>
+<!-- Резюме для скачивания со страницы «До этого» (T-548). Печать в PDF — scripts/resume-pdf.mjs → public/yunusov-resume.pdf.
+     Текст — по резюме Павла от 19.09.2026 (Career/resume), сверено с текстами лендинга. Телефона нет: файл публичный. -->
+<style>
+  @font-face { font-family: Inter; font-weight: 400; src: url(../node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2) format('woff2'); unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+  @font-face { font-family: Inter; font-weight: 400; src: url(../node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: Inter; font-weight: 600; src: url(../node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff2) format('woff2'); unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+  @font-face { font-family: Inter; font-weight: 600; src: url(../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: Inter; font-weight: 900; src: url(../node_modules/@fontsource/inter/files/inter-cyrillic-900-normal.woff2) format('woff2'); unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+  @font-face { font-family: Inter; font-weight: 900; src: url(../node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2) format('woff2'); }
+  @page { size: A4; margin: 16mm 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 400 10pt/1.45 Inter, sans-serif; color: #1B1A16; }
+  a { color: inherit; text-decoration: none; }
+  h1 { font-weight: 900; font-size: 28pt; line-height: 1; letter-spacing: -.02em; margin: 0; }
+  .role { font-weight: 600; font-size: 12pt; margin: 6pt 0 4pt; }
+  .contacts { color: #55524A; font-size: 9.5pt; }
+  .contacts span + span::before { content: '·'; margin: 0 6pt; color: #A9A497; }
+  h2 { font-weight: 900; font-size: 9pt; letter-spacing: .12em; text-transform: uppercase; margin: 16pt 0 6pt; padding-top: 6pt; border-top: 1.5pt solid #1B1A16; }
+  p { margin: 0 0 5pt; }
+  .job { margin: 0 0 9pt; break-inside: avoid; }
+  .job-head { display: flex; justify-content: space-between; gap: 12pt; }
+  .job-head b { font-weight: 600; }
+  .when { color: #55524A; white-space: nowrap; }
+  .pos { color: #55524A; margin-bottom: 3pt; }
+  ul { margin: 2pt 0 0; padding-left: 13pt; }
+  li { margin: 0 0 2.5pt; }
+  li::marker { color: #E0452A; }
+</style>
+</head>
+<body>
+  <h1>Павел Юнусов</h1>
+  <div class="role">AI-автоматизация и разработка с AI-агентами</div>
+  <div class="contacts">
+    <span>Екатеринбург</span><span>afest17@yandex.ru</span><span>Telegram @Yunusov_Pavel</span><span>github.com/afest</span>
+  </div>
+
+  <h2>О себе</h2>
+  <p>Нахожу в бизнесе работу, которая идёт руками или теряет деньги, и собираю решение: бота, агента, сервис или связку с системами компании. Код пишут Claude Code и Codex, постановка, архитектура, проверка и запуск — на мне.</p>
+  <p>Моя база — продуктовый дизайн: 15 лет в дизайне, из них пять с половиной — B2B- и enterprise-продукты в Embedika, где я руководил командой из пяти дизайнеров. Поэтому любую автоматизацию веду как продукт: от разбора процесса и прототипа до запуска.</p>
+
+  <h2>Опыт работы</h2>
+  <div class="job">
+    <div class="job-head"><b>Свои проекты и заказы</b><span class="when">сентябрь 2025 — сейчас</span></div>
+    <div class="pos">AI-автоматизация и разработка с агентами</div>
+    <ul>
+      <li>Сеть точек бабл-ти по франшизе: Telegram-бот аналитики продаж на iikoOffice API, агент склада и инвентаризации, агент сверки инкассации.</li>
+      <li>Сервис поиска поставщиков для закупщика: сбор данных с проверкой по цитатам и госреестрам, ИИ-помощник, план закупа из Excel, сервер на FastAPI.</li>
+      <li>Демо агента для отдела продаж на Битрикс24 и Hermes: разбор звонков по чек-листу, подсказки менеджерам, проверка учёта в 1С.</li>
+      <li>ИИ-ассистент собственника в Telegram: календарь, встречи, напоминания.</li>
+      <li>Прототип для лаборатории промышленных красок: расчёт рецептуры и база лабораторных партий с оцифровкой рукописных журналов.</li>
+      <li>Веб-платформа для заказчика из трейдинга: витрина, кабинеты инвестора, администратора и партнёра, роли и права, графики, данные Bybit по API.</li>
+      <li>Оркестратор задач для AI-агентов: канбан в файлах, роли, ревью, память между сессиями. Движок выложен в открытый доступ.</li>
+      <li>SayType — локальная диктовка и запись созвонов на Whisper, открытый код.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><b>Embedika</b><span class="when">февраль 2020 — сентябрь 2025</span></div>
+    <div class="pos">Senior Product Designer, руководитель дизайн-команды</div>
+    <ul>
+      <li>Интерфейсы платформы Cursor для интеллектуального поиска и работы с документами: поиск, аналитика, граф связей, разметка данных. Внедрена в Газпром Нефти, Сибуре и Полюс Золоте.</li>
+      <li>Дизайн-система для экосистемы из десяти с лишним продуктов: компоненты, паттерны, токены.</li>
+      <li>Дизайн-отдел с нуля: нанял пять дизайнеров, ввёл грейды, онбординг и дизайн-ревью.</li>
+      <li>В Consul формулировал требования к ML-логике анализа рисков в документах; четыре модуля дошли до MVP на реальных данных.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><b>Яндекс Практикум</b><span class="when">май 2020 — февраль 2024</span></div>
+    <div class="pos">Старший наставник, частичная занятость</div>
+    <ul>
+      <li>Курсы дизайна интерфейсов, графического и коммуникационного дизайна: вебинары, разборы работ, база знаний для онбординга наставников.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><b>NAUMEN</b><span class="when">июль 2019 — февраль 2020</span></div>
+    <div class="pos">UX/UI-дизайнер</div>
+    <ul>
+      <li>Интерфейсы корпоративных систем управления и Service Desk, сценарии из бизнес-требований вместе с аналитиками.</li>
+    </ul>
+  </div>
+  <p>До 2019 года — графический и промышленный дизайн, брендинг, 3D и анимация.</p>
+
+  <h2>Инструменты</h2>
+  <p>Claude Code, Codex, Hermes Agent, MCP · Python, FastAPI, SQLite, REST API · React, TypeScript, Next.js · Telegram Bot API, iikoOffice API, Битрикс24 REST, Google Calendar API · Figma, дизайн-системы, B2B и enterprise UX.</p>
+
+  <h2>Образование</h2>
+  <p>УрГАХУ — магистратура, графический дизайн, 2017.<br>ХМИДПИ (УрГАХУ) — бакалавриат, промышленный дизайн, 2015.</p>
+</body>
+</html>
